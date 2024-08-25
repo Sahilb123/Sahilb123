@@ -145,7 +145,7 @@ echo "Generating Summary Report"
 cat /var/log/security_audit_hardening.log
 
 # Optionally, send an email alert
-# Uncomment the following lines to enable email notifications, replace the email id to recieve the email notification
+# Uncomment the below lines to enable email notifications and replace the email id to recieve the email notification
 # mail -s "Security Audit & Hardening Report" test@test.com < /var/log/security_audit_hardening.log
 
 log_action "Security Audit & Hardening Script completed"
